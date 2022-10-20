@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Restaurante Tic</string>
+    <string name="username">USERNAME</string>
+    <string name="email_domain_com">email@domain.com</string>
+</resources>
