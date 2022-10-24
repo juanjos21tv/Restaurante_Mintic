@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Restaurante Tic</string>
+    <string name="text_username">Nombre de  usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_email">email_domain_com</string>
+    <string name="your_password">tu contraseña</string>
+    <string name="text_login">Inicio de sesión</string>
+
+
+
+</resources>

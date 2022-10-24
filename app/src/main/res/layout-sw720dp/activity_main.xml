@@ -10,13 +10,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+
         android:gravity="center">
 
         <ImageView
-            android:layout_width="388dp"
-            android:layout_height="437dp"
-            android:contentDescription="TODO"
+            android:layout_width="720dp"
+            android:layout_height="720dp"
             android:src="@drawable/logo" />
 
 
@@ -33,34 +32,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_username"
-            android:textColor="@color/black"
-            android:textSize="25sp"/>
+            android:textSize="45dp"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_email"
-            android:minHeight="48dp"
-            android:textColorHint="#78909C" />
+            android:hint="@string/text_email"
+            android:textSize="45dp"
+            android:minHeight="48dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_password"
             android:layout_marginTop="25dp"
-            android:textSize="25sp" />
+            android:textSize="45dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/your_password"
+            android:textSize="45dp"
             android:minHeight="48dp"
             android:textColorHint="#757575" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="45dp"
+            android:textSize="45dp"
             android:text="@string/text_login"/>
 
     </LinearLayout>
